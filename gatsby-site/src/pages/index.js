@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import ProfessionalExperience from "../components/professional_experience"
+import Education from '../components/education'
 
 import "../styles/style.css"
 
@@ -42,7 +43,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="container-fluid h-100">
           <div className="row h-100">
             <div className="col h-100 d-flex flex-column justify-content-center px-5">
               <div>
@@ -65,70 +65,45 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="container-fluid h-100">
           <div className="row h-100">
-            <div className="col h-100 d-flex flex-column justify-content-center">
+            <div className="col h-100 d-flex flex-column justify-content-center px-5 bg-dark text-white">
               <div>
-                <p className="lead">Education</p>
-                <p>Bachelor of Computer Science (Honours) - Monash University Malaysia</p>
-                <p>October 2016 - June 2020</p>
-                <p>CGPA : 3.92/4.0</p>
-                <p>Weighted Average Mark : 85.7/100</p>
-                <p>Honors and Awards : Cliff Bellamy Awards (Dean's Achievement Award - Highest Achieving Student), Highest Unit
-                  Score Award, Faculty of IT Best Graduate</p>
-                <p>Relevant Coursework : Object Oriented Design and Implementation in Java, Advanced Algorithms and Data
-                  Structures, Android Application Development, Parallel and Distributed Computing</p>
-                <p>Honours Research Thesis : Incorporating Contextual Data in Sequence-Based Recommender Systems</p>
 
-                <p>HELP Academy</p>
-                <p>January 2014 - July 2015</p>
-                <p>A-Levels : Physics, Economics, Mathematics, Further Mathematics (4A*)</p>
-                <p>Honors and Awards : Highest Mark in the World - Cambridge International AS Level Economics 2014</p>
+                <h1 className="mb-5 display-3">Education</h1>
+                <div className="row h-100">
+                  <Education/>
+                </div>
 
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="container-fluid h-100">
-          <div className="row h-100">
-            <div className="col h-100 d-flex flex-column justify-content-center">
-              <div>
-                <p className="lead">Personal Projects</p>
-
-                FOOD RECOMMENDATION SYSTEM (PERSONAL PROJECT)
-                ● Inspired by personal difficulty in discovering new restaurants to dine-in
-                ● Allows users to post and like food recommendations, and uses preferences to generate targeted recommendations
-                ● Designed a mobile and web app front-end using Flutter and ReactJS respectively
-                ● Implemented Node.js serverless backend on Firebase Cloud Functions
-                ● Designed a NoSQL database on Firebase Realtime Database
-                ● Obtained location data from Google Places API
-
-                MULTIPLAYER TIC-TAC-TOE GAME (COURSEWORK)
-                ● Implemented a multiplayer tic-tac-toe game using a basic HTML frontend, and an Express backend
-                ● Used Socket.IO for real-time communication between client and server
-
+        <div className="row h-100">
+          <div className="col h-100 d-flex flex-column justify-content-center">
+            <div>
+              <h1 className="mb-5 display-3">Personal Projects</h1>
+              
+              <div className="card col-4">
+                <img className="card-img-top" src="..." alt="Card image cap"/>
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" className="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
+              FOOD RECOMMENDATION SYSTEM (PERSONAL PROJECT)
+              ● Inspired by personal difficulty in discovering new restaurants to dine-in
+              ● Allows users to post and like food recommendations, and uses preferences to generate targeted recommendations
+              ● Designed a mobile and web app front-end using Flutter and ReactJS respectively
+              ● Implemented Node.js serverless backend on Firebase Cloud Functions
+              ● Designed a NoSQL database on Firebase Realtime Database
+              ● Obtained location data from Google Places API
 
-        <div className="container-fluid h-100">
-          <div className="row h-100">
-            <div className="col h-100 d-flex flex-column justify-content-center">
-              <div>
-                <p className="lead">Awards and Achievements</p>
+              MULTIPLAYER TIC-TAC-TOE GAME (COURSEWORK)
+              ● Implemented a multiplayer tic-tac-toe game using a basic HTML frontend, and an Express backend
+              ● Used Socket.IO for real-time communication between client and server
 
-
-
-                ● Champion - Monash Petrosains Gerontechnology Challenge 2018
-                ● Top 10 - Hong Leong Can You Hack It Hackathon 2019
-                ● JPA Scholar - Full scholarship by Malaysian government for top students to study at the top 20 universities globally
-                ● Champion - Penang Intervarsity Debate Open 2013
-
-              </div>
             </div>
           </div>
         </div>

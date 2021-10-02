@@ -12,7 +12,7 @@ class ProfessionalExperience extends React.Component {
   render() {
       return(
         <>
-        <div className="col d-flex">
+        <div className="col col-md-auto d-flex">
           <div className="list-group">
 
             {this.options.map((current, index) => {
@@ -30,7 +30,7 @@ class ProfessionalExperience extends React.Component {
           switch(this.state.selected){
           case 0:
             return(
-              <div class="col-11 d-flex flex-column">
+              <div class="col d-flex flex-column">
                 <h2>Software Engineer - MIMOS Berhad</h2>
                 <p className="lead">February 2020 - June 2021</p>
                 <ul>
@@ -47,7 +47,7 @@ class ProfessionalExperience extends React.Component {
 
           case 1:
             return(
-              <div class="col-11 d-flex flex-column">
+              <div class="col d-flex flex-column">
                 <h2>Business Operations Intern - Digi-X</h2>
                 <p className="lead">November 2018 - February 2019</p>
                 <ul>
@@ -61,7 +61,7 @@ class ProfessionalExperience extends React.Component {
 
             case 2:
               return(
-                <div class="col-11 d-flex flex-column">
+                <div class="col d-flex flex-column">
                   <h2>IT Intern - PwC</h2>
                   <p className="lead">January 2016 - June 2016</p>
                   <ul>
