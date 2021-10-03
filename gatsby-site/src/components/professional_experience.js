@@ -41,6 +41,7 @@ class ProfessionalExperience extends React.Component {
                   <li className="mb-2">Built streaming data pipelines with automated workflows (Nifi) that ingest and preprocess data (using Python) from IoT sensors and production line data</li>
                   <li className="mb-2">Reduced web app average response time by 50% by designing and implementing load balancing (NGINX)
                     and web server (Gunicorn) concurrency</li>
+                  <li className="mb-2"><b>Technologies Used</b> : Flask, Django, RDBMS (PostgreSQL), NoSQL (DruidDB), Apache Superset, Thingsboard, React, Kafka, MQTT, Docker, Linux, Git</li>
                 </ul>
               </div>
             )

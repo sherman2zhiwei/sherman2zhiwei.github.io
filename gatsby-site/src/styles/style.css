@@ -6,3 +6,10 @@ html, body, #___gatsby, #gatsby-focus-wrapper{
     max-height: 50% !important;
     align-self: center;
 }
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    object-position: left top;
+}

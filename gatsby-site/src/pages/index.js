@@ -79,36 +79,58 @@ export default function Home() {
             </div>
           </div>
 
-        <div className="row h-100">
-          <div className="col h-100 d-flex flex-column justify-content-center">
+        <div className="row">
+          <div className="col h-100 d-flex flex-column justify-content-center px-5">
             <div>
-              <h1 className="mb-5 display-3">Personal Projects</h1>
+              <h1 className="my-5 display-3">Personal Projects</h1>
               
-              <div className="card col-4">
-                <img className="card-img-top" src="..." alt="Card image cap"/>
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" className="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-              FOOD RECOMMENDATION SYSTEM (PERSONAL PROJECT)
-              ● Inspired by personal difficulty in discovering new restaurants to dine-in
-              ● Allows users to post and like food recommendations, and uses preferences to generate targeted recommendations
-              ● Designed a mobile and web app front-end using Flutter and ReactJS respectively
-              ● Implemented Node.js serverless backend on Firebase Cloud Functions
-              ● Designed a NoSQL database on Firebase Realtime Database
-              ● Obtained location data from Google Places API
+              <div className="row">
 
-              MULTIPLAYER TIC-TAC-TOE GAME (COURSEWORK)
-              ● Implemented a multiplayer tic-tac-toe game using a basic HTML frontend, and an Express backend
-              ● Used Socket.IO for real-time communication between client and server
+                <div className="card col-lg-3 mb-5">
+                  <img className="card-img-top" src="./recommendations.png" alt="Food Recommendation System"/>
+
+                  <div className="card-body">
+                    <h5 className="card-title">Food Recommendation System</h5>
+                    <ul>
+                      <li>Inspired by personal difficulty in discovering new restaurants to dine-in</li>
+                      <li>Allows users to post and like food recommendations, and uses preferences to generate targeted recommendations</li>
+                      <li>Designed a mobile and web app front-end using Flutter and ReactJS respectively</li>
+                      <li>Implemented Node.js serverless backend on Firebase Cloud Functions</li>
+                      <li>Designed a NoSQL database on Firebase Realtime Database</li>
+                      <li>Obtained location data from Google Places API</li>
+                      <li><b>Technologies Used</b> : Node.js, Flutter, React, NoSQL (Firebase), Google Places API</li>
+                    </ul>
+
+                    <a href="https://gitlab.com/shermanwongzhiwei/weekdayproj" target="_blank" className="btn btn-primary">Gitlab Page</a>
+                  </div>
+                </div>
+
+                <div className="col-lg-1"></div>
+
+                <div className="col-lg-3 mb-5">
+
+                  <div className="card row">
+                    {/* <img className="card-img-top" src="..." alt="Food Recommendation System"/> */}
+                    <div className="card-body">
+                      <h5 className="card-title">Multiplayer Tic-Tac-Toe Game</h5>
+                      <ul>
+                        <li>Implemented a multiplayer tic-tac-toe game using a basic HTML frontend, and an Express backend</li>
+                        <li>Used Socket.IO for real-time communication between client and server.</li>
+                        <li><b>Technologies Used</b> : Node.js, Express, HTML & CSS</li>
+                      </ul>
+
+                      {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
+                    </div>
+                  </div>
+                </div>
+
+              </div>
 
             </div>
           </div>
         </div>
 
-        <div className="container-fluid h-100">
+        {/* <div className="container-fluid h-100">
           <div className="row h-100">
             <div className="col h-100 d-flex flex-column justify-content-center">
               <div>
@@ -121,7 +143,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </>

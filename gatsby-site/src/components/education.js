@@ -49,8 +49,8 @@ class Education extends React.Component {
                 <h2>A-Levels HELP Academy</h2>
                 <p className="lead">January 2014 - July 2015</p>
                 <ul>
-                  <li className="mb-2">A-Levels : Physics, Economics, Mathematics, Further Mathematics (4A*)</li>
-                  <li className="mb-2">Honors and Awards : Highest Mark in the World - Cambridge International AS Level Economics 2014</li>
+                  <li className="mb-2"><b>A-Levels</b> : Physics, Economics, Mathematics, Further Mathematics (4A*)</li>
+                  <li className="mb-2"><b>Honors and Awards</b> : Highest Mark in the World - Cambridge International AS Level Economics 2014</li>
 
                 </ul>
               </div>
